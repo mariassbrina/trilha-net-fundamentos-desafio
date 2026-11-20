@@ -95,10 +95,10 @@ namespace DesafioFundamentos.Models
                 return;
             }
 
-            Console.WriteLine($"Os veículos estacionados são ({veiculos.Count}):");
-            for (int i = 0; i < veiculos.Count; i++)
+            Console.WriteLine("Os veículos estacionados são:");
+            foreach (string veiculo in veiculos)
             {
-                Console.WriteLine($"  {i + 1}. {veiculos[i]}");
+                Console.WriteLine(veiculo);
             }
         }
     }

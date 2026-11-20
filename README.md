@@ -20,10 +20,11 @@ valor total = preço inicial + (preço por hora × horas)
 ## Estrutura
 
 ```
-DesafioFundamentos.csproj
-Program.cs                 # leitura dos preços e menu interativo
-Models/
-  Estacionamento.cs        # regras de negócio (adicionar, remover, listar, calcular valor)
+DesafioFundamentos/
+  DesafioFundamentos.csproj
+  Program.cs                 # leitura dos preços e menu interativo
+  Models/
+    Estacionamento.cs        # regras de negócio (adicionar, remover, listar, calcular valor)
 ```
 
 ### Classe `Estacionamento`
@@ -49,6 +50,7 @@ Pré-requisito: [.NET SDK 10](https://dotnet.microsoft.com/download) (para usar 
 `TargetFramework` no `.csproj`, por exemplo para `net8.0`).
 
 ```bash
+cd DesafioFundamentos
 dotnet run
 ```
 

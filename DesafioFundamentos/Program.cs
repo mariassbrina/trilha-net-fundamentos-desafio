@@ -46,7 +46,7 @@ while (exibirMenu)
 
     if (exibirMenu)
     {
-        Console.WriteLine("Pressione Enter para continuar");
+        Console.WriteLine("Pressione uma tecla para continuar");
         Console.ReadLine();
     }
 }
